@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    align-items: center; /* comment this and observe */
+    
+
+     
+     
+    
+      
+
+    
+}
+.header {
+    display: flex;
+    gap: 10px;
+    background-color: antiquewhite;
+    
+    max-width:100%;
+    
+    
+    
+}
+
+.arrow {
+    background-color: aquamarine;
+}
+.link{
+    word-wrap: break-word;
+    min-width:0;
+}
