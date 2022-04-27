@@ -4,24 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/a11y-dialog@7/dist/a11y-dialog.min.js"
+    ></script>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <div class="link">
-          <a href="http://https://google.com">goole</a>
-        </div>
-        <div class="link">
-          <a href="http://https://google.com">facebook</a>
-        </div>
-        <div class="link">
-          <a href="http://https://google.com">linkdin</a>
-        </div>
-      </div>
-      <div class="arrow">></div>
+    <div class="main">
+      <h1>example for model</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quo
+        distinctio sequi magni totam laboriosam quisquam iure optio laudantium
+        sit sint mollitia aspernatur nemo eveniet harum. Quisquam dolores soluta
+        mollitia.
+      </p>
+      <button class="open-model">open</button>
     </div>
+    <dialog id="model">
+      <h1>model heading</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
+        aliquam, harum accusantium suscipit architecto vitae aperiam quasi unde
+        distinctio possimus assumenda aliquid explicabo! Nulla vero, explicabo
+        placeat minima optio ratione.
+      </p>
+      <form id="form" method="dialog">
+        <input type="text" name="one" />
+        <input type="text" />
+        <button type="submit">close the model</button>
+      </form>
+      <button type="button" class="close-model">close model outside</button>
+    </dialog>
+
     <script src="play.js"></script>
   </body>
 </html>
