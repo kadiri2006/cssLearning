@@ -1,8 +1,12 @@
 .container {
  
-   columns: 4;
+display: grid;
+grid-template-columns: repeat(4,minmax(200px,1fr));
+
 }
 
+
 .item {
-    max-width: 100%;
+    width: 100%;
+    
 }
