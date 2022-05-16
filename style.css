@@ -11,7 +11,7 @@ gap: 10px;
    
    
    width: 100px;
-   flex:1 0 350px;    /* observe images after changing this values,especially last photos and right side gaps */
+   flex:0 0 350px;    /* observe images after changing this values,especially last photos and right side gaps */
    
    aspect-ratio: 1/1;
 
