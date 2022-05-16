@@ -1,12 +1,24 @@
 .container {
- 
-display: grid;
-grid-template-columns: repeat(4,minmax(200px,1fr));
-
+  columns: 4;
 }
-
 
 .item {
-    width: 100%;
-    
+  width: 100%;
 }
+
+@media screen and (min-width:320px) {
+     .container {
+        columns:1
+     }
+}
+@media screen and (min-width:375px) {
+     .container {
+        columns:2
+     }
+}
+@media screen and (min-width:768px) {
+     .container {
+        columns:3
+     }
+}
+   
