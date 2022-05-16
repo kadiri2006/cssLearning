@@ -1,22 +1,8 @@
 .container {
-display: flex;
-flex-wrap: wrap;
-gap: 10px;
-
-    
-
+ 
+   columns: 4;
 }
 
 .item {
-   
-   
-   width: 100px;
-   flex:0 0 350px;    /* observe images after changing this values,especially last photos and right side gaps */
-   
-   aspect-ratio: 1/1;
-
-   
-
-   
-
+    max-width: 100%;
 }
