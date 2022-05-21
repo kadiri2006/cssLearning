@@ -14,20 +14,20 @@
       height: 500px;
       display: grid;
 
-      grid-template-columns: repeat(2,50%);
-      grid-template-rows:100%;
+      grid-template-columns: repeat(2, minmax(30px, 1fr));
+      grid-template-rows: minmax(100%, 1fr);
     }
     .child1 {
       background-color: rgb(195, 219, 227);
+      
 
       outline: 10px solid rgb(8, 4, 250);
     }
+    
     .child2 {
-      
       background-color: lightgreen;
     }
     img {
-    
     }
   </style>
   <body>
@@ -44,5 +44,3 @@
     <script src="play.js"></script>
   </body>
 </html>
-
-
