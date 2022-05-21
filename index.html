@@ -14,23 +14,19 @@
       height: 500px;
       display: grid;
       grid-auto-flow: column;
-    
+
       /* grid-template-columns:500px 500px; */
-      
     }
     .child1 {
       background-color: rgb(195, 219, 227);
-      width: 50%;
+      width: 250px;
       outline: 10px solid rgb(8, 4, 250);
-
-
     }
     .child2 {
       /* width: 100px;   */
       background-color: lightgreen;
     }
     img {
-      
       /* width: 100%; */
     }
   </style>
@@ -49,7 +45,7 @@
   </body>
 </html>
 
-<!-- if we observe here even if we set child width to 50%[50 of grid column area] 
-child-1 div sized is decreased but <img> within child-1 is not re-sized
-and also when observe grid columns numbers grid column width & height depends upon not child-1 div but image resolution
+<!-- if we observe here if we set child width(div-1) to 250px then automatically div1(child) becomes to width of 250px and also 
+  observe carefully grid columns area is adjusted within parent div even if image in child1 div is expanded beyond child1&parent divs
+  .here columns areas(columns numbers not depending upon image when we set absolute px value for width)
  -->
